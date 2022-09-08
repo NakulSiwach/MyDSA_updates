@@ -1,0 +1,27 @@
+# CPP arrays
+
+# every value has to be of same data type (declared while init).
+# contigous memory allocated.
+# if not assigned values, will have garbage value.
+
+# init the array
+int arr[5];
+
+# init while allocating value to it
+int arr[5] = {1,2,3}; rest will be filled with 0
+
+# after init, make all value same in array(can be 0 or what we like)
+fill_n(arr,range,value);
+
+# memory size of arr
+sizeof(arr)
+sizeof(arr)/sizeof(int)
+
+# taking input
+for (int i =0;i<5;i++){
+	cin >> arr[i];
+
+# taking output
+for (int i =0;i<5;i++){
+	cout << arr[i];
+ 
