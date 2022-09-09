@@ -1,0 +1,24 @@
+# what is pointer and what is it for.
+
+int a = 5;
+int* ptr = &a;
+here, ptr stores the address of a (that is hexadecimal) 
+and, *ptr give the value of int (or any datatype) present at that address.
+
+* is used to get the value at given memory address.
+& is used to get the memory adress of given data. 
+size of pointer is always 8 bytes (for all data types pointer)
+
+i.e. when we do cout for following we get,
+
+a = 5
+&a = address of a
+ptr = address of a    
+*ptr = 5
+
+
+int a = 5;
+int *ptr = &a;
+*ptr = *ptr+1;
+cout<<*ptr;
+this will increase 5 to 6
