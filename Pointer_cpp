@@ -22,3 +22,5 @@ int *ptr = &a;
 *ptr = *ptr+1;
 cout<<*ptr;
 this will increase 5 to 6
+
+arr[i] = *(arr+i)
