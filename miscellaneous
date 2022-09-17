@@ -1,1 +1,29 @@
  all extra stuff
+
+
+if (m.find(key) == m.end())
+        return "Not Present";
+
+
+ for (auto i : m)
+        cout << i.first << "   " << i.second
+             << endl;
+
+
+// substr,size,sizeof,*ptr,
+// Node* newnode = new Node(5);
+// newnode->next = new Node(6);
+// Treenode*head = new Treenode(5);
+// head->left = new Treenode(7);	
+// priority_queue<int,vector<int>,greater<int>>h;	
+// priority_queue<int>h;
+
+
+// Create a vector of size n with
+    // all values as 10.
+    vector<int> vect(n, 10);
+
+
+decimal to binary = /2 karte jao and reaminder rakhte jao
+binary to decimal = for every set bit add 2 to power uski pos from right 
+starting from 0.
