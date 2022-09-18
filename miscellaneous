@@ -27,3 +27,13 @@ if (m.find(key) == m.end())
 decimal to binary = /2 karte jao and reaminder rakhte jao
 binary to decimal = for every set bit add 2 to power uski pos from right 
 starting from 0.
+
+
+interger to binary
+in python ->  ord(x)
+in cpp -> 
+std::string toBinary(int n){
+    std::string r;
+    while(n!=0) {r=(n%2==0 ?"0":"1")+r; n/=2;}
+    return r;
+}
