@@ -17,6 +17,11 @@ if (m.find(key) == m.end())
 // head->left = new Treenode(7);	
 // priority_queue<int,vector<int>,greater<int>>h;	
 // priority_queue<int>h;
+// myvector.clear();	
+// '4'-'0' gives int4 
+// memset(arr,-1,sizeof(arr));
+// accumulate(arr.begin(),arr.end(),0)
+// accumulate(arr,arr+n,0)
 
 
 // Create a vector of size n with
