@@ -1,3 +1,16 @@
+//DFS
+void dfs(int i,unordered_map<int,vector<int>>adj,unordered_map<int,bool>&vis){
+	vis[i] = 1;
+	cout<<i;
+	for(auto x:adj[i]){
+		if (!vis[x]){
+			dfs(x,adj,vis);
+		}
+	}
+	return;
+}
+
+
 // BFS
 #include<bits/stdc++.h>
 using namespace std;
